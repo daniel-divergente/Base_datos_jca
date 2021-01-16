@@ -16,7 +16,7 @@
 -- Volcando estructura de base de datos para eloquent
 DROP DATABASE IF EXISTS `eloquent`;
 CREATE DATABASE IF NOT EXISTS `eloquent` /*!40100 DEFAULT CHARACTER SET latin7 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `eloquent`;
+USE `eloquent -Mysql`;
 
 -- La exportación de datos fue deseleccionada.
 
